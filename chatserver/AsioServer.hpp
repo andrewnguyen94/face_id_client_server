@@ -73,11 +73,6 @@ private:
     chat_message_queue write_msgs_;
 };
 
-class listener : public std::enable_shared_from_this<>
-{
-    
-}
-
 //----------------------------------------------------------------------
 
 class chat_server
